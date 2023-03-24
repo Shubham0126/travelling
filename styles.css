@@ -22,7 +22,7 @@ hr{
 .list-items:hover{
     background-color: aqua;
     border-radius: 12px;
-    color: black;
+    color: black!important;
     font-size: 1.1rem;
 }
 
@@ -35,13 +35,13 @@ hr{
     Position: relative;
     background-image: url('content/Background-1.png');
     padding-top: 10%;
-    
 }
 
 /* Service Section */
 .card-text{
     display: none;
 }
+
 .card-img-top{
     color: black;
 }
@@ -58,6 +58,7 @@ hr{
 .card:hover .card-text{
    display: block;
 }
+
 /* Destinations */
 .carousel-item img{
     filter: brightness(50%);
@@ -79,7 +80,17 @@ footer .nav-link:hover{
 text-decoration: underline;
 color: white;
 }
-
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    margin: 10px 20px;
+    color: black;
+}
+.social a:hover{
+    color: white;
+}
 /* About Us */
 .container-about{
     background-image: url('content/Background-2.png');
@@ -113,4 +124,45 @@ color: white;
 }
 .contact-heading h1{
     font-size: 3.5rem;
+}
+
+/* FAQs */
+.faq-container{
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('content/Background-4.png');
+    height: Auto;
+    
+}
+.faq-heading{
+    padding: 2% 5%;
+}
+.faq{
+    color: white;
+}
+
+/* Privacy Policy  & Terms And Conditions reffered as (docs)*/
+.docs-container{
+    margin-top: 5% ;
+    padding: 3% 5%;
+}
+.docs-heading h1{
+    font-size: 3.6rem;
+}
+
+@media (max-width: 1000px){
+    .docs-container{
+        margin-top: 7%;
+    }
+}
+@media (max-width: 600px){
+    .docs-container{
+        margin-top: 10%;
+    }
+}
+@media (max-width: 350px){
+    .docs-container{
+        margin-top: 15%;
+    }
+    .docs-container h1{
+        font-size: 2.5rem;
+    }
 }
