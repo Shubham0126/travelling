@@ -91,6 +91,19 @@ color: white;
 .social a:hover{
     color: white;
 }
+
+/* Destination Page */
+.container-destination{
+    background-image: url('content/Background-5.png');
+    height: auto;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.destination-text{
+    display: block;
+}
+
 /* About Us */
 .container-about{
     background-image: url('content/Background-2.png');
