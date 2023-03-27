@@ -33,7 +33,7 @@ hr{
 /* Home */
 .container-home{
     Position: relative;
-    background-image: url('content/Background-1.png');
+    background-image: url('content/Background-1.webp');
     padding-top: 10%;
 }
 
@@ -94,7 +94,7 @@ color: white;
 
 /* Destination Page */
 .container-destination{
-    background-image: url('content/Background-5.png');
+    background-image: url('content/Background-5.webp');
     height: auto;
     background-size: cover;
     padding-top: 5%;
@@ -106,7 +106,7 @@ color: white;
 
 /* About Us */
 .container-about{
-    background-image: url('content/Background-2.png');
+    background-image: url('content/Background-2.webp');
     height: auto;
     background-size: cover;
     background-attachment: fixed;
@@ -119,7 +119,7 @@ color: white;
 
 /* Contact Us */
 .container-contact{
-    background-image: url('content/Background-3.png');
+    background-image: url('content/Background-3.webp');
     height: auto;
     background-size: cover;
     background-attachment: fixed;
@@ -141,7 +141,7 @@ color: white;
 
 /* FAQs */
 .faq-container{
-    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('content/Background-4.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('content/Background-4.webp');
     height: Auto;
     
 }
